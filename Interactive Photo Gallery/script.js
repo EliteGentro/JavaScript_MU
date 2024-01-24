@@ -27,11 +27,3 @@ function upDate(previewPic){
        imageDiv.style.backgroundImage=`url('')`; 
        imageDiv.innerHTML="Hover over an image below to display here.";   
        }
-
-       function giveIndex(){
-        console.log("Giving tabindex to images")
-        let imagesArray=document.querySelectorAll(".preview");
-        for(let i=0;i<imagesArray.length;i++){
-            imagesArray[i].setAttribute("tabindex","0");
-        }
-       }
